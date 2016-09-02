@@ -1,0 +1,134 @@
+*{padding: 0;margin: 0;list-style: none;}
+body{background-color: #abcdef;}
+#header{
+	width: 900px;
+	height: 60px;
+	font-size: 40px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 60px;
+}
+#content{
+	width: 880px; 
+	height: 430px;
+	background-color: gray;
+	margin: 0 auto;
+	padding: 10px;
+}
+#tool{
+	height: 130px;
+}
+#tool li{
+	float: left;
+	width: 175px;
+	background-color: #ccc;
+	height: 120px;
+	border-right: 1px solid red;
+	text-align: center;
+}
+#image{
+	text-align: left;
+    padding: 20px 40px;
+}
+#image li{
+	height: 30px;
+	list-style: square;
+    width: 100px;
+    border:none;
+
+}
+#image li button{
+    background-color: gray;
+    border:1px solid #000;
+}
+/*设置图像按钮组当鼠标经过时边框变为白色*/
+#image li button:hover{
+    background-color: gray;
+    border:1px solid #fff;
+}
+
+#means,#shape{
+	padding: 20px 25px;
+}
+#means li,#shape li{
+	height: 20px;
+	width: 40px;
+    border: 1px solid #000;
+	float: left;
+	margin-bottom: 10px;
+}
+
+#means img,#shape img{
+    height: 20px;
+    width: 20px;
+}
+
+#size{
+	padding: 5px 25px;
+}
+#size li{
+   height: 20px;
+   width: 120px;
+   border:none;
+}
+/*设置工具组，形状组和线宽组当鼠标经过时，边框变白*/
+#means li:hover,#shape li:hover,#size li:hover{
+	border:1px solid #fff;
+}
+#color{
+	padding:15px 20px;
+}
+#color li{
+   height: 25px;
+   width: 25px;
+   border:1px solid #000;
+   margin-bottom: 10px;
+}
+#color #black{
+	background-color: black;
+}
+#color #white{
+	background-color: white;
+}
+#color #red{
+	background-color: red;
+}
+#color #blue{
+	background-color: blue;
+}
+#color #yellow{
+	background-color: yellow;
+}
+#color #pink{
+	background-color: pink;
+}
+#color #purple{
+	background-color: purple;
+}
+#color #cyan{
+	background-color: cyan;
+}
+#color #orange{
+	background-color: orange;
+}
+#color #grey{
+	background-color: grey;
+}
+
+#canvas{
+	background-color: white;
+
+}
+#canvas:hover{
+	cursor: crosshair;
+}
+/*设置颜色组当鼠标经过时边框变为白色*/
+#color li:hover{
+   border:1px solid #fff;
+}
+#footer{
+	width: 900px;
+	height: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
